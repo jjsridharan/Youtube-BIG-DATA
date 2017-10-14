@@ -8,7 +8,7 @@ This project will use MAP REDUCE concept to find the following three items from 
 
 3) List top twenty viewed videos.
 
-**Exection**
+**Execution**
 
 1) Make sure you have installed java and hadoop
 
