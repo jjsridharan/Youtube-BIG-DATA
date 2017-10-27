@@ -6,7 +6,7 @@
 
 export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
 
-sudo javac -cp :commons-cli-1.4.jar:/usr/local/hduser/share/hadoop/common/hadoop-common-2.7.3.jar:/usr/local/hduser/share/hadoop/common/lib/hadoop-annotations-2.7.3.jar:/usr/local/hduser/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar *.java
+sudo javac -cp :/usr/local/hduser/share/hadoop/common/hadoop-common-2.7.3.jar:/usr/local/hduser/share/hadoop/common/lib/hadoop-annotations-2.7.3.jar:/usr/local/hduser/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar *.java
 
 #for creating jar file
 
